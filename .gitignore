@@ -1,0 +1,51 @@
+# Data (large / downloadable)
+data/raw/
+data/processed/
+data/fer2013/
+data/ravdess/
+*.npz
+*.h5
+*.keras
+*.pkl
+*.csv
+
+# Models & logs
+models/*.keras
+models/*.h5
+models/logs_*/
+models/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Audio / video temp
+*.wav
+*.mp4
+*.avi
+temp/
+tmp/
+
+# Kaggle
+kaggle.json
