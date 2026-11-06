@@ -1,3 +1,14 @@
+## Results (from 2025 thesis)
+
+The original system was trained and evaluated for the undergraduate thesis:
+
+- Speech (LSTM, MFCC + Δ + ΔΔ): ~82% accuracy
+- Face (CNN, 48×48 grayscale): ~68% accuracy
+- Fusion: +5–10% over unimodal baselines
+
+This repository is the modernized rebuild (MobileNetV2 + BiLSTM + MediaPipe).
+Results for the rebuilt models will be added once training completes.
+
 # Real-Time Multimodal Emotion Analytics
 
 A real-time system for detecting human emotions by combining facial expression analysis and speech prosody based on my undergradaute thesis paper
